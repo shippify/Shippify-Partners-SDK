@@ -9,14 +9,15 @@ public class Vehicle {
     public String description;
     public String capacity;
     public String extras;
+    public String referenceId;
 
     public static String TAG = "Vehicle";
 
-    public Vehicle(){
+    public Vehicle() {
 
     }
 
-    public static void saveVehicle(Vehicle vehicle){
+    public static void saveVehicle(Vehicle vehicle) {
 
         if (vehicle.status == null) {
             System.out.println("MISSING STATUS VEHICLE");
